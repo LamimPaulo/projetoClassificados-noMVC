@@ -19,6 +19,7 @@ $info = $a->getAnuncio($id);
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-4">
+            
             <div class="carousel slide" data-ride="carousel" id="meuCarousel">
                 <div class="carousel-inner" role="listbox">
                     <?php foreach ($info['fotos'] as $key => $foto): ?>
